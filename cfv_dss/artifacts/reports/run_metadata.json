@@ -1,0 +1,26 @@
+{
+  "seed": 42,
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "cohort_n": 307511,
+  "target_prevalence": 0.08072881945686496,
+  "best_model": "XGBoost",
+  "best_roc_auc": 0.6786,
+  "external_validation": {
+    "dataset": "Give Me Some Credit",
+    "n": 150000,
+    "outcome_prevalence": 0.06684,
+    "roc_auc": 0.7978105219360144,
+    "pr_auc": 0.33440450074138983,
+    "brier_score": 0.18258577311973956,
+    "constructs": [
+      "US",
+      "DBP",
+      "HAIC",
+      "DS",
+      "CE",
+      "HB",
+      "AGE"
+    ]
+  }
+}

@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="weight" attr.type="double" />
+  <graph edgedefault="directed">
+    <node id="DBP" />
+    <node id="AAP" />
+    <node id="CNP" />
+    <node id="US" />
+    <node id="TARGET" />
+    <node id="DS" />
+    <node id="CE" />
+    <node id="RR" />
+    <node id="HAIC" />
+    <node id="FHD" />
+    <node id="DEBT_RATIO_BUREAU" />
+    <node id="AGE" />
+    <node id="EMPSTAB" />
+    <node id="HB" />
+    <edge source="DBP" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DBP" target="CNP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CNP" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="US" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DS" target="US">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DS" target="CE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DS" target="RR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DS" target="CNP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DS" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CE" target="DBP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CE" target="RR">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CE" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CE" target="CNP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="CE" target="DEBT_RATIO_BUREAU">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RR" target="US">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RR" target="CNP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RR" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="RR" target="DEBT_RATIO_BUREAU">
+      <data key="d0">0.8</data>
+    </edge>
+    <edge source="HAIC" target="DBP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HAIC" target="CE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HAIC" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HAIC" target="CNP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HAIC" target="RR">
+      <data key="d0">0.78</data>
+    </edge>
+    <edge source="FHD" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FHD" target="DS">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FHD" target="CE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FHD" target="AGE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FHD" target="DEBT_RATIO_BUREAU">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FHD" target="EMPSTAB">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="FHD" target="HAIC">
+      <data key="d0">0.78</data>
+    </edge>
+    <edge source="FHD" target="HB">
+      <data key="d0">0.68</data>
+    </edge>
+    <edge source="FHD" target="AAP">
+      <data key="d0">0.68</data>
+    </edge>
+    <edge source="DEBT_RATIO_BUREAU" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DEBT_RATIO_BUREAU" target="DBP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DEBT_RATIO_BUREAU" target="US">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="DEBT_RATIO_BUREAU" target="AAP">
+      <data key="d0">0.98</data>
+    </edge>
+    <edge source="AGE" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="CNP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="CE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="DBP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="HAIC">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="EMPSTAB">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="AGE" target="DEBT_RATIO_BUREAU">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EMPSTAB" target="CE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EMPSTAB" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EMPSTAB" target="TARGET">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="EMPSTAB" target="DS">
+      <data key="d0">0.62</data>
+    </edge>
+    <edge source="HB" target="EMPSTAB">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HB" target="AAP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HB" target="HAIC">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HB" target="DBP">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HB" target="AGE">
+      <data key="d0">1.0</data>
+    </edge>
+    <edge source="HB" target="CE">
+      <data key="d0">0.88</data>
+    </edge>
+  </graph>
+</graphml>

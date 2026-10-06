@@ -1,0 +1,14 @@
+code,construct,tier,causal_role,actionability,expected_direction,index_time_available
+DBP,Debt Burden Pressure,3,treatment/mediator,partly actionable,+,True
+US,Utilization Stress,3,treatment/mediator,actionable,+,True
+DS,Delinquency Severity,2,confounder/diagnostic,limited,+,True
+HAIC,Household-Adjusted Income Capacity,1,confounder/capacity,partly actionable,-,True
+CE,Credit Exposure,2,treatment/mediator,actionable (planning horizon),+,True
+RR,Repayment Reliability,2,confounder/diagnostic,limited,-,True
+AAP,Application Affordability Pressure,4,decision variable/treatment,actionable at origination,+,True
+FHD,Financial History Depth,0,background/confounder,not actionable,-,True
+HB,Household Burden,0,effect modifier/confounder,low,+,True
+CNP,Credit Search / New-Credit Pressure,3,treatment/mediator,actionable,+,True
+EMPSTAB,Employment Stability,1,confounder/capacity,low,-,True
+AGE,Applicant Age,0,background/confounder,not actionable,-,True
+DEBT_RATIO_BUREAU,External Debt-to-Limit Ratio,2,treatment/mediator,actionable,+,True

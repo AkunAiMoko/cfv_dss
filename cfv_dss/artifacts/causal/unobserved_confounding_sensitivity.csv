@@ -1,0 +1,7 @@
+exposure,effect_per_sd,t_statistic,robustness_value_to_nullify,overlap_verdict,interpretation
+US,0.01648,24.97,0.044,adequate,robust to weak confounding
+DEBT_RATIO_BUREAU,0.01493,21.96,0.0388,adequate,sensitive to modest confounding
+CNP,0.00852,13.74,0.0245,adequate,sensitive to modest confounding
+DBP,0.00701,12.98,0.0231,adequate,sensitive to modest confounding
+CE,0.00711,12.47,0.0222,adequate,sensitive to modest confounding
+AAP,-0.00632,7.44,0.0133,limited,highly sensitive

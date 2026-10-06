@@ -1,0 +1,170 @@
+[
+  {
+    "model": "LogisticRegression",
+    "roc_auc": 0.6541,
+    "pr_auc": 0.1445,
+    "brier_score": 0.2301,
+    "calibration_slope": 0.0732,
+    "calibration_intercept": 0.0905,
+    "f1_score": 0.2059,
+    "recall": 0.5847,
+    "precision": 0.125,
+    "confusion_matrix": [
+      [
+        36211,
+        20327
+      ],
+      [
+        2062,
+        2903
+      ]
+    ]
+  },
+  {
+    "model": "GaussianNB",
+    "roc_auc": 0.6407,
+    "pr_auc": 0.131,
+    "brier_score": 0.1005,
+    "calibration_slope": 0.0153,
+    "calibration_intercept": 0.1236,
+    "f1_score": 0.1546,
+    "recall": 0.1374,
+    "precision": 0.1769,
+    "confusion_matrix": [
+      [
+        53365,
+        3173
+      ],
+      [
+        4283,
+        682
+      ]
+    ]
+  },
+  {
+    "model": "DecisionTree",
+    "roc_auc": 0.6355,
+    "pr_auc": 0.129,
+    "brier_score": 0.2325,
+    "calibration_slope": 0.0372,
+    "calibration_intercept": 0.0865,
+    "f1_score": 0.1954,
+    "recall": 0.5682,
+    "precision": 0.118,
+    "confusion_matrix": [
+      [
+        35446,
+        21092
+      ],
+      [
+        2144,
+        2821
+      ]
+    ]
+  },
+  {
+    "model": "RandomForest",
+    "roc_auc": 0.6664,
+    "pr_auc": 0.1545,
+    "brier_score": 0.2017,
+    "calibration_slope": 0.0837,
+    "calibration_intercept": 0.1052,
+    "f1_score": 0.2189,
+    "recall": 0.518,
+    "precision": 0.1388,
+    "confusion_matrix": [
+      [
+        40576,
+        15962
+      ],
+      [
+        2393,
+        2572
+      ]
+    ]
+  },
+  {
+    "model": "ExtraTrees",
+    "roc_auc": 0.6532,
+    "pr_auc": 0.1452,
+    "brier_score": 0.2304,
+    "calibration_slope": 0.1272,
+    "calibration_intercept": 0.0931,
+    "f1_score": 0.2038,
+    "recall": 0.5932,
+    "precision": 0.123,
+    "confusion_matrix": [
+      [
+        35549,
+        20989
+      ],
+      [
+        2020,
+        2945
+      ]
+    ]
+  },
+  {
+    "model": "AdaBoost",
+    "roc_auc": 0.6635,
+    "pr_auc": 0.1502,
+    "brier_score": 0.1201,
+    "calibration_slope": 0.2173,
+    "calibration_intercept": 0.2671,
+    "f1_score": 0.0,
+    "recall": 0.0,
+    "precision": 0.0,
+    "confusion_matrix": [
+      [
+        56538,
+        0
+      ],
+      [
+        4965,
+        0
+      ]
+    ]
+  },
+  {
+    "model": "HistGradientBoosting",
+    "roc_auc": 0.6751,
+    "pr_auc": 0.1629,
+    "brier_score": 0.2191,
+    "calibration_slope": 0.0745,
+    "calibration_intercept": 0.0965,
+    "f1_score": 0.2132,
+    "recall": 0.5996,
+    "precision": 0.1297,
+    "confusion_matrix": [
+      [
+        36559,
+        19979
+      ],
+      [
+        1988,
+        2977
+      ]
+    ]
+  },
+  {
+    "model": "XGBoost",
+    "roc_auc": 0.6786,
+    "pr_auc": 0.1657,
+    "brier_score": 0.2166,
+    "calibration_slope": 0.0725,
+    "calibration_intercept": 0.0976,
+    "f1_score": 0.2173,
+    "recall": 0.6032,
+    "precision": 0.1325,
+    "confusion_matrix": [
+      [
+        36931,
+        19607
+      ],
+      [
+        1970,
+        2995
+      ]
+    ]
+  }
+]

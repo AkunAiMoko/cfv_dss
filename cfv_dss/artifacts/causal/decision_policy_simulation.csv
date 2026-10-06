@@ -1,0 +1,5 @@
+policy,budget_coverage,simulated_utility,lever,description
+A. Risk-Only Targeting,0.2,0.0,US,"Targets highest predicted vulnerability, one uniform lever"
+B. Predictive-Importance Only,0.2,0.0,US,Intervenes on strongest predictive feature without causal verification
+C. Causal Targeting,0.2,0.0,per-borrower,Selects the lever with largest estimated causal benefit per borrower
+D. Causal + Feasibility Constrained,0.2,0.0,per-borrower (cost-weighted),Causal benefit discounted by actionability and intervention cost

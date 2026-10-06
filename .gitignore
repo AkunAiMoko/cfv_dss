@@ -1,0 +1,43 @@
+# Raw competition datasets (keep these locally beside the cfv_dss package).
+/Data Set Home Credit/
+/datasets/
+/data/
+application_train.csv
+application_test.csv
+bureau.csv
+bureau_balance.csv
+previous_application.csv
+installments_payments.csv
+credit_card_balance.csv
+cs-training.csv
+cs-test.csv
+
+# Applicant-level derived data and preprocessing caches.
+/cfv_dss/artifacts/data/
+*.parquet
+
+# Python environments and generated caches.
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local secrets and editor/OS files.
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+~$*.docx
+
+# Intermediate bibliography downloads and backup; verified metadata is included.
+/cfv_dss/manuscript/reference_candidates.json
+/cfv_dss/manuscript/reference_details.json
+/cfv_dss/manuscript/selected_candidate_details.json
+/cfv_dss/manuscript/article.before_reference_update.txt

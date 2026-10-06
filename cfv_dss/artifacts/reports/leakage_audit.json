@@ -1,0 +1,16 @@
+{
+  "cohort_n": 307511,
+  "target_prevalence": 0.08072881945686496,
+  "duplicate_applicant_ids": 0,
+  "outcome_embedded_in_constructs": false,
+  "historical_sources_precede_index": true,
+  "post_index_current_loan_fields_used": [],
+  "source_sha256": {
+    "application_train.csv": "52e96b895b1112e1c853f670e58372719c8441c5ed1c57ac2f7fad559d784f5f",
+    "bureau.csv": "9d799143423f280720cf51c1bfbbab2a0422da8ff2763335bb30bf43155494f7",
+    "previous_application.csv": "5046cd657ee04df2eaa6dc8308ae86be6b3b1763674a3f63574886a2f2896505",
+    "installments_payments.csv": "428c2e2496e4d6d697ee8270e98497e5213c41be16d882eed1bc95b133726797",
+    "credit_card_balance.csv": "a9cdc48900d55131c90f3128b991859aeb94ca1326fb5f4d1624b9fd03782247",
+    "cs-training.csv": "1bd46da486a5708c58c7b01a034fae2a13b327f6f7b62ea7ba4fe3b5824b24ac"
+  }
+}

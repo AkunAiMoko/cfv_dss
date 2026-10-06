@@ -1,0 +1,7 @@
+exposure,residual_variance_share,worst_bin_variance_share,overlap_verdict,effect_full,effect_trimmed_1_99pct,trimming_shift,n_full,n_trimmed
+DBP,0.7651,0.2615,adequate,0.00701,0.00677,-0.00024,307511,301359
+US,0.8624,0.2074,adequate,0.01648,0.01607,-0.00041,307511,301359
+CE,0.7133,0.5537,adequate,0.00711,0.00704,-7e-05,307511,301359
+AAP,0.3306,0.021,limited,-0.00632,-0.00699,-0.00067,307511,301359
+CNP,0.6421,0.3999,adequate,0.00852,0.00842,-0.0001,307511,301359
+DEBT_RATIO_BUREAU,0.8198,0.2435,adequate,0.01493,0.01476,-0.00017,307511,301359

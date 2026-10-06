@@ -1,0 +1,2 @@
+dataset,n,outcome_prevalence,roc_auc,pr_auc,brier_score,constructs
+Give Me Some Credit,150000,0.06684,0.7978105219360144,0.33440450074138983,0.18258577311973956,"['US', 'DBP', 'HAIC', 'DS', 'CE', 'HB', 'AGE']"
